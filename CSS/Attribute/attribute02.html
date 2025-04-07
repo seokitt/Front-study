@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Gamja+Flower&display=swap" rel="stylesheet">
+    <style>
+        .font-attr1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 32px;
+            font-variant: small-caps;
+            letter-spacing: 10px;
+            line-height: 2em;
+            /*부모요소 대비 2배*/
+        }
+
+        .font-attr2 {
+
+            font-weight: bold;
+            /*bold 진하게 700 */
+            font-style: italic;
+            /* italic : 이탤릭체 글꼴 
+               oblique : 기울이기 */
+
+        }
+
+        .font-box {
+            font-size: 16px;
+            text-align: center;
+
+        }
+
+        .p1-inbox {
+            font-size: 1.5em;
+            /* text-align: center; */
+
+        }
+
+        .p2-inbox {
+            font-size: 3rem;
+            /*  html 크기 대비 3배*/
+        }
+
+        html {
+            font-size: 10px;
+        }
+
+        /* html 기본크기 16px */
+
+        .gamja-flower-regular {
+            font-family: "Gamja Flower", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <p>기본 text</p>
+    <p class="font-attr1">Font Attr1</p>
+    <p class="font-attr1">폰트 속성1</p>
+
+    <p>햄버거 오늘만 특가! <span style="text-decoration: line-through;">5,000원</span> ->
+        <span style="text-decoration: underline;">3,000원</span> ->
+    </p>
+
+
+    <p class="font-attr2">Here is Font Attr 2</p>
+
+    <div class="font-box">
+        <p>박스 안에 글자 1</p>
+        <p class="p1-inbox bagel-fat-one-regular" >박스 안에 글자 1</p>
+        <p class="p2-inbox bagel-fat-one-regular">박스 안에 글자 2</p>
+
+
+        <div class="font-box2">
+
+            <p>박스 안에 글자 1</p>
+            <p class="p1-inbox gamja-flower-regular" >박스 안에 글자 1</p>
+            <p class="p2-inbox gamja-flower-regular">박스 안에 글자 2</p>
+
+
+        </div>
+</body>
+
+</html>
