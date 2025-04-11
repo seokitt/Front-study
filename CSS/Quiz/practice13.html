@@ -20,7 +20,23 @@
     }
 
     .top{
+        width: 800px;
         display: flex;
+        border: 1px solid black;
+    }
+    .top-box1{
+        width: 50%;
+        border: 1px solid black;
+        height: 100px;
+        background-color: aqua;
+    }
+
+    .top-box2{
+        width: 50%;
+        border: 1px solid black;
+        height: 100px;
+        background-color:sienna;
+
     }
 
     .box1{
@@ -125,9 +141,10 @@
     @media screen and (max-width:500px){
         .top {flex-direction: column;}
         
-        .top-box1, .topbox-2 {
+        .top-box1, .top-box2 {
             width: 100%;
         }
+        
         .center{
             flex-direction: column;
         } 
@@ -165,7 +182,6 @@
 <body>
     <div class="container">
         <div class="top">
-
         <div class="top-box1"></div>
         <div class="top-box2"></div>
     </div>
